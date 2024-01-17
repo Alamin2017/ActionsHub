@@ -10,7 +10,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 public class BaseEnv {
     public static WebDriver driver;
-    public static String browser = "chrome";
+    public static String browser = "edge";
     @BeforeMethod
     public void setup() {
 
